@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TaxCalculator",
+    "\\TaxCalculator\\TaxCalculator"
   ],
+  "SelectedNode": "\\TaxCalculator\\TaxCalculator\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

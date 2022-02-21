@@ -27,7 +27,7 @@ namespace TaxCalculator
             tax = (int)(subtotal * TAX_RATE);
             total = subtotal + tax;
 
-            label6.Text = Convert.ToString(subtotal);
+            label6.Text = String.Format("{0:#,##0}‰~", subtotal);
             label7.Text = Convert.ToString(tax);
             label8.Text = Convert.ToString(total);
         }
