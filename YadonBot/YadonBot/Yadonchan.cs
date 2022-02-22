@@ -51,8 +51,7 @@ namespace YadonBot
 
             Random rnd = new Random();
             int num = rnd.Next(0, 10);
-            //7
-            if (num < 100)
+            if (num < 7)
             {
                 _responder = _res_pattern;
             }
