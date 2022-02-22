@@ -19,5 +19,11 @@ C:\Users\Takumi\source\repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net
 C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\Interop.WMPLib.dll
 C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\YadonBot.csproj.ResolveComReference.cache
 C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\sound.mp3
-C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dics\pattern.txt
-C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dics\random.txt
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dic\char.bin
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dic\dicrc
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dic\matrix.bin
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dic\README.txt
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dic\sys.dic
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dic\unk.dic
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\MeCab.DotNet.dll
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\YadonBot.csproj.CopyComplete

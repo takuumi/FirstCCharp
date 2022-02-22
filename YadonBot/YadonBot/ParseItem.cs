@@ -10,7 +10,7 @@ namespace YadonBot
     internal class ParseItem
     {
         private string _pattern = "";
-        private List<Dictionary<string, string>> _phases = new();
+        private List<Dictionary<string, string>> _phrases = new();
         private int _modify;
 
         public int Modify { get => _modify;}
@@ -44,7 +44,7 @@ namespace YadonBot
 
                 dic["phrase"] = mach2.Groups[3].Value;
 
-                _phases.Add(dic);
+                _phrases.Add(dic);
 
             }
         }
@@ -59,7 +59,7 @@ namespace YadonBot
         public string Choise(int mood)
         {
             List<string> choises = new();
-            foreach (Dictionary<string, string> dic in _phases)
+            foreach (Dictionary<string, string> dic in _phrases)
             {
                 if (Suitable(
                     Convert.ToInt32(dic["need"]),
@@ -96,6 +96,36 @@ namespace YadonBot
             {
                 return (mood < need);
             }
+        }
+
+        internal string MakeLine()
+        {
+            string pattern = Convert.ToString(_modify) + "##" + _pattern;
+            StringBuilder responseList = new();
+            foreach(var dic in _phrases)
+            {
+                responseList.Append("|" + dic["need"] + "##" + dic["phrase"]);
+            }
+
+            return pattern + "\t" +responseList;
+
+
+        }
+
+        internal void AddPhrase(string userinput)
+        {
+            foreach(var p in _phrases)
+            {
+                if (p["phrase"] == userinput)
+                {
+                    return;
+                }
+            }
+            _phrases.Add(
+                new Dictionary<string, string>
+                {
+                    {"need", "0" },{"phrase", userinput}
+                });
         }
     }
 }

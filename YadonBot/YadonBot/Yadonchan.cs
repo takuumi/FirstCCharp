@@ -64,12 +64,25 @@ namespace YadonBot
                 _responder = _res_repeat;
             }
 
-            return _responder.Response(input, _emotion.Mood);
+            string resp = _responder.Response(input, _emotion.Mood);
+
+            List<string[]> parts = Analyzer.Analize(input);
+            _dictionary.Study(input, parts);
+
+            return resp;
+
+
+
         }
 
         public string GetName()
         {
             return _responder.Name;
+        }
+
+        public void Save()
+        {
+            _dictionary.Save();
         }
 
     }

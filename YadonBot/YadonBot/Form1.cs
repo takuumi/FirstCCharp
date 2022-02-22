@@ -77,5 +77,17 @@ namespace YadonBot
                 label2.Text = Convert.ToString(_chan.Emotion.Mood);
             }
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            const string message = "ãLâØÇµÇøÇ·Ç¡ÇƒÇÊÇ¢ÅH";
+            const string caption = "éøñ‚Ç≈Ç∑";
+            var result = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                _chan.Save();
+            }
+
+        }
     }
 }

@@ -21,3 +21,11 @@ C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Release\n
 C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Release\net6.0-windows\YadonBot.pdb
 C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Release\net6.0-windows\YadonBot.genruntimeconfig.cache
 C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Release\net6.0-windows\ref\YadonBot.dll
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\dic\char.bin
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\dic\dicrc
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\dic\matrix.bin
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\dic\README.txt
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\dic\sys.dic
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\dic\unk.dic
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Release\net6.0-windows\MeCab.DotNet.dll
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Release\net6.0-windows\YadonBot.csproj.CopyComplete
