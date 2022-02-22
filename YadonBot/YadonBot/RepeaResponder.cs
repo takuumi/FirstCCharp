@@ -8,11 +8,11 @@ namespace YadonBot
 {
     internal class RepeaResponder : Responder
     {
-        public RepeaResponder(string name) : base(name) 
+        public RepeaResponder(string name, Cdictionary dic) : base(name, dic) 
         {
         }
 
-        public override string Response(string input)
+        public override string Response(string input, int mood)
         {
             return String.Format("{0}ってなにドヤ？", input);
         }

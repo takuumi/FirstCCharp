@@ -16,3 +16,8 @@ C:\Users\Takumi\source\repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net
 C:\Users\Takumi\source\repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\YadonBot.genruntimeconfig.cache
 C:\Users\Takumi\source\repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\ref\YadonBot.dll
 C:\Users\Takumi\source\repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\YadonBot.Properties.Resources.resources
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\Interop.WMPLib.dll
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\obj\Debug\net6.0-windows\YadonBot.csproj.ResolveComReference.cache
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\sound.mp3
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dics\pattern.txt
+C:\Users\Takumi\Source\Repos\takuumi\FirstCCharp\YadonBot\YadonBot\bin\Debug\net6.0-windows\dics\random.txt

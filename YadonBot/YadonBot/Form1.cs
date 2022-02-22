@@ -1,21 +1,17 @@
+using WMPLib;
+
 namespace YadonBot
 {
     public partial class Form1 : Form
     {
         private Yadonchan _chan = new("ƒhƒ„‘¾");
+        WindowsMediaPlayer _mediaPlayer = new WindowsMediaPlayer();
 
         public Form1()
         {
             InitializeComponent();
-            UpdateCurrentTime();
         }
 
-        private void UpdateCurrentTime()
-        {
-            DateTime dt = DateTime.Now;
-            label2.Text = dt.ToLongTimeString();
-
-        }
 
         private void PutLog(string str)
         {
@@ -45,6 +41,10 @@ namespace YadonBot
 
         private void Dialog()
         {
+            _mediaPlayer.URL = @"sound.mp3";
+            _mediaPlayer.controls.play();
+
+
             string value = textBox2.Text;
             if (string.IsNullOrEmpty(value))
             {
@@ -58,12 +58,24 @@ namespace YadonBot
                 PutLog(Prompt() + response);
                 textBox2.Clear();
 
-            }
-        }
+                int em = _chan.Emotion.Mood;
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            UpdateCurrentTime();
+                if((-5<=em) && (em<=5)) {
+                    this.pictureBox1.Image = Properties.Resources.yadon_normal;
+
+                }else if ((-10 <=em) && (em <-5)) 
+                {
+                    this.pictureBox1.Image = Properties.Resources.yadon_sleep;
+                }else if((-15 <= em) && (em < -10) )
+                {
+                    this.pictureBox1.Image = Properties.Resources.yadon_angry;
+                }else if((5<= em) && em <= 15)
+                {
+                    this.pictureBox1.Image = Properties.Resources.yadon_happy;
+                }
+
+                label2.Text = Convert.ToString(_chan.Emotion.Mood);
+            }
         }
     }
 }

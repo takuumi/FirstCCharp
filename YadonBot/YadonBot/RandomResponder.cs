@@ -8,26 +8,17 @@ namespace YadonBot
 {
     internal class RandomResponder : Responder
     {
-        private string[] _responses =
-        {
-            "いい天気どやぁ",
-            "おやすみどやぁ",
-            "ドドヤ、ヤドドヤァ！",
-            "?",
-            "スヤスヤ・・・",
-            "ドヤァ"
-        };
 
-
-        public RandomResponder(string name) : base(name)
+        public RandomResponder(string name, Cdictionary dic) : base(name, dic)
         {
         }
 
-        public override string Response(string input)
+        public override string Response(string input, int mood)
         {
-            Random rnd = new Random();
+            int seed = Environment.TickCount;
+            Random rnd = new(seed);
 
-            return _responses[rnd.Next(0, _responses.Length)];
+            return Cdictionary.Random[rnd.Next(0, Cdictionary.Random.Count)];
         }
 
     }

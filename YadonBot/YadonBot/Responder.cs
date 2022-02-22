@@ -9,14 +9,17 @@ namespace YadonBot
     internal class Responder
     {
 
-        public string? Name { get; set; }
+        public string Name { get; set; }
 
-        public Responder(string name)
+        public Cdictionary Cdictionary { get; set; }
+
+        public Responder(string name, Cdictionary dic)
         {
             Name = name;
+            Cdictionary = dic;
         }
 
-        public virtual string Response(string input)
+        public virtual string Response(string input, int mood)
         {
             {
                 return "";
