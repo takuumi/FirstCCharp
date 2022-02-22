@@ -7,6 +7,14 @@ namespace YadonBot
         public Form1()
         {
             InitializeComponent();
+            UpdateCurrentTime();
+        }
+
+        private void UpdateCurrentTime()
+        {
+            DateTime dt = DateTime.Now;
+            label2.Text = dt.ToLongTimeString();
+
         }
 
         private void PutLog(string str)
@@ -51,6 +59,11 @@ namespace YadonBot
                 textBox2.Clear();
 
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            UpdateCurrentTime();
         }
     }
 }
